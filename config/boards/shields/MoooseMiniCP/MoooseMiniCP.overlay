@@ -1,4 +1,4 @@
-#include "MoooseBT.dtsi"
+#include "MoooseMiniCP.dtsi"
 
 &default_transform {
     row-offset = <7>;
@@ -9,18 +9,6 @@
 &right_encoder {
     status = "okay";
 };
-
-//&kscan0 {
-//    interrupt-gpios = <&xiao_d 10 (GPIO_ACTIVE_HIGH | GPIO_PULL_DOWN) >;
-//    gpios
-//        = <&xiao_d 1 GPIO_ACTIVE_HIGH>
-//        , <&xiao_d 2 GPIO_ACTIVE_HIGH>
-//        , <&xiao_d 3 GPIO_ACTIVE_HIGH>
-//        , <&xiao_d 7 GPIO_ACTIVE_HIGH>
-//        , <&xiao_d 8 GPIO_ACTIVE_HIGH>
-//        , <&xiao_d 9 GPIO_ACTIVE_HIGH>
-//        ;
-//};
 
 / {
     trackball_listener {
@@ -58,7 +46,6 @@
         };
     };
 
-
     spi0_sleep: spi0_sleep {
         group1 {
             psels = <NRF_PSEL(SPIM_SCK, 0, 5)>,
@@ -77,13 +64,12 @@
     pinctrl-names = "default", "sleep";
     cs-gpios = <&xiao_d 10 GPIO_ACTIVE_LOW>;
 
-
     trackball: trackball@0 {
         status = "okay";
         compatible = "pixart,pmw3610";
         reg = <0>;
         spi-max-frequency = <2000000>;
-        irq-gpios = <&gpio0 2 (GPIO_ACTIVE_LOW | GPIO_PULL_UP)>;
+        irq-gpios = <&xiao_d 1 (GPIO_ACTIVE_LOW | GPIO_PULL_UP)>;
         snipe-layers = <2 3>;
         scroll-layers = <1 4>;
     };

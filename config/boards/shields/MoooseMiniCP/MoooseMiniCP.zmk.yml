@@ -1,11 +1,10 @@
 file_format: "1"
-id: MoooseBT
-name: MoooseBT
+id: MoooseMiniCP
+name: MoooseMiniCP
 type: shield
 url: https://github.com/ataruno/zmk-config
 requires: [seeeduino_xiao_ble]
 features:
   - keys
 siblings:
-  - MoooseBT_left
-  - MoooseBT_right
+  - MoooseMiniCP

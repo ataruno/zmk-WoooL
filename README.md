@@ -1,4 +1,7 @@
 # zmk-MoooseMini_Charlieplex
+## キーボード名
+MoooseMiniCP
+
 ## 構成
 * Charlieplex
 * PMW3610
