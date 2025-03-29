@@ -136,52 +136,42 @@
         compatible = "zmk,keymap";
         default_layer {
             bindings = <
-                         &kp Q    &kp W   &kp E   &kp R
-                &kp A             &kp D   &kp F   &kp G
-                &kp Z    &kp X            &kp E   &kp R
-                &kp Z    &kp X    &kp C           &kp R
-                &kp Z    &kp X    &kp C   &kp E
+                &kp Q             &kp W   &kp E   &kp R
+                &kp A    &kp S    &kp D   &kp F   &kp G
+                &kp Z    &kp X    &kp C
             >;
             sensor-bindings =
                 <&mouse_scroll SCRL_DOWN SCRL_UP>;
         };
         ARROW {
             bindings = <
-                         &kp Q    &kp W   &kp E   &kp R
-                &kp A             &kp D   &kp F   &kp G
-                &kp Z    &kp X            &kp E   &kp R
-                &kp Z    &kp X    &kp C           &kp R
-                &kp Z    &kp X    &kp C   &kp E
+                &kp Q             &kp W   &kp E   &kp R
+                &kp A    &kp S    &kp D   &kp F   &kp G
+                &kp Z    &kp X    &kp C
             >;
             sensor-bindings = <&mouse_scroll SCRL_UP SCRL_DOWN>;
         };
         NUM {
             bindings = <
-                         &kp Q    &kp W   &kp E   &kp R
-                &kp A             &kp D   &kp F   &kp G
-                &kp Z    &kp X            &kp E   &kp R
-                &kp Z    &kp X    &kp C           &kp R
-                &kp Z    &kp X    &kp C   &kp E
+                &kp Q             &kp W   &kp E   &kp R
+                &kp A    &kp S    &kp D   &kp F   &kp G
+                &kp Z    &kp X    &kp C
             >;
             sensor-bindings = <&mouse_scroll SCRL_UP SCRL_DOWN>;
         };
         AHK {
             bindings = <
-                         &kp Q    &kp W   &kp E   &kp R
-                &kp A             &kp D   &kp F   &kp G
-                &kp Z    &kp X            &kp E   &kp R
-                &kp Z    &kp X    &kp C           &kp R
-                &kp Z    &kp X    &kp C   &kp E
+                &kp Q             &kp W   &kp E   &kp R
+                &kp A    &kp S    &kp D   &kp F   &kp G
+                &kp Z    &kp X    &kp C
             >;
             sensor-bindings = <&mouse_scroll SCRL_UP SCRL_DOWN>;
         };
         FUNCTION {
             bindings = <
-                         &kp Q    &kp W   &kp E   &kp R
-                &kp A             &kp D   &kp F   &kp G
-                &kp Z    &kp X            &kp E   &kp R
-                &kp Z    &kp X    &kp C           &kp R
-                &kp Z    &kp X    &kp C   &kp E
+                &kp Q             &kp W   &kp E   &kp R
+                &kp A    &kp S    &kp D   &kp F   &kp G
+                &kp Z    &kp X    &kp C
             >;
             sensor-bindings = <&mouse_scroll SCRL_UP SCRL_DOWN>;
         };
