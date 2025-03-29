@@ -17,8 +17,6 @@
 #     artifact-name: corne_left_with_logging
 #
 ---
-# board: ["seeeduino_xiao_ble"]
-# shield: ["MoooseBT_left","MoooseBT_right","settings_reset"]
 include:
   - board: seeeduino_xiao_ble
     shield: MoooseMiniCP

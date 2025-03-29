@@ -149,7 +149,7 @@
                 &kp A    &kp S    &kp D   &kp F   &kp G
                 &kp Z    &kp X    &kp C
             >;
-            sensor-bindings = <&mouse_scroll SCRL_UP SCRL_DOWN &mouse_scroll SCRL_UP SCRL_DOWN>;
+            sensor-bindings = <&mouse_scroll SCRL_UP SCRL_DOWN>;
         };
         NUM {
             bindings = <
@@ -157,7 +157,7 @@
                 &kp A    &kp S    &kp D   &kp F   &kp G
                 &kp Z    &kp X    &kp C
             >;
-            sensor-bindings = <&mouse_scroll SCRL_UP SCRL_DOWN &mouse_scroll SCRL_UP SCRL_DOWN>;
+            sensor-bindings = <&mouse_scroll SCRL_UP SCRL_DOWN>;
         };
         AHK {
             bindings = <
@@ -165,7 +165,7 @@
                 &kp A    &kp S    &kp D   &kp F   &kp G
                 &kp Z    &kp X    &kp C
             >;
-            sensor-bindings = <&rot_kp C_VOL_DN C_VOL_UP &rot_kp C_VOL_UP C_VOL_DN>;
+            sensor-bindings = <&mouse_scroll SCRL_UP SCRL_DOWN>;
         };
         FUNCTION {
             bindings = <
@@ -173,7 +173,7 @@
                 &kp A    &kp S    &kp D   &kp F   &kp G
                 &kp Z    &kp X    &kp C
             >;
-            sensor-bindings = <&rot_kp C_VOL_DN C_VOL_UP &rot_kp C_VOL_UP C_VOL_DN>;
+            sensor-bindings = <&mouse_scroll SCRL_UP SCRL_DOWN>;
         };
     };
 };
