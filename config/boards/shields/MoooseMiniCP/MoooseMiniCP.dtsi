@@ -46,16 +46,16 @@
         gpios
             = <&xiao_d 9 GPIO_ACTIVE_HIGH>
             , <&xiao_d 8 GPIO_ACTIVE_HIGH>
+            , <&xiao_d 2 GPIO_ACTIVE_HIGH>
             , <&xiao_d 3 GPIO_ACTIVE_HIGH>
-            , <&xiao_d 4 GPIO_ACTIVE_HIGH>
             , <&xiao_d 7 GPIO_ACTIVE_HIGH>
             ;
     };
 
     default_transform: keymap_transform_0 {
         compatible = "zmk,matrix-transform";
-        rows = <5>;
-        columns = <6>;
+        rows = <4>;
+        columns = <5>;
         map = <
                      RC(1,0) RC(2,0) RC(3,0) RC(4,0)
             RC(0,1)          RC(2,1) RC(3,1) RC(4,1)
