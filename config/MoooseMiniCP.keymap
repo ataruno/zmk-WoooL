@@ -136,9 +136,9 @@
         compatible = "zmk,keymap";
         default_layer {
             bindings = <
-                &kp Q             &kp W   &kp E   &kp R
-                &kp A    &kp S    &kp D   &kp F   &kp G
-                &kp Z    &kp X    &kp C
+                &kp C_MUTE               &kp SPACE   &kp LEFT   &kp UP
+                &mkp LCLK   &mkp RCLK    &kp SPACE   &kp DOWN   &kp RIGHT
+                &mkp MCLK   &kp SPACE    &kp SPACE
             >;
             sensor-bindings =
                 <&mouse_scroll SCRL_DOWN SCRL_UP>;
