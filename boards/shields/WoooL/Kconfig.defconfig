@@ -1,0 +1,6 @@
+if SHIELD_WoooL
+
+config ZMK_KEYBOARD_NAME
+    default "WoooL"
+
+endif

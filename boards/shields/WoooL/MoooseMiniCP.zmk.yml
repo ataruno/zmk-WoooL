@@ -1,10 +1,10 @@
 file_format: "1"
-id: MoooseMiniCP
-name: MoooseMiniCP
+id: WoooL
+name: WoooL
 type: shield
 url: https://github.com/ataruno/zmk-config
 requires: [seeeduino_xiao_ble]
 features:
   - keys
 siblings:
-  - MoooseMiniCP
+  - WoooL
