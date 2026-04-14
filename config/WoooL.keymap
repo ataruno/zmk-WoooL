@@ -140,9 +140,9 @@
                 &kp LALT   &kp A &kp S &kp D &kp F &kp G &kp H &kp J &kp K        &kp L &kp JP_SEMI &kp JP_COLON
                 &kp LSHIFT &kp Z &kp X &kp C &kp V &kp B &kp N &kp M &kp JP_COMMA &kp JP_DOT &kp JP_SLASH &kp RSHIFT
                 &kp LCTRL  &kp B &kp C &kp D &kp E &kp F &kp G &kp H &kp I        &kp J &kp K &kp L
-                                        &kp 1                         &kp 1
-                                 &kp 3 &kp 4 &kp 2    &kp 6     &kp 3 &kp 4 &kp 2
-                                        &kp 5                         &kp 5
+                                        &kp 1                               &kp 1
+                                 &kp 3 &kp 4 &kp 2    &bootloader     &kp 3 &kp 4 &kp 2
+                                        &kp 5                               &kp 5
             >;
             sensor-bindings =
                 <&mouse_scroll SCRL_DOWN SCRL_UP>;
