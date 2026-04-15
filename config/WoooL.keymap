@@ -155,10 +155,10 @@
         };
         ARROW {
             bindings = <
-                &kp TAB    &kp Q    &kp W    &kp E   &kp R    &kp T     &kp Y     &kp U     &kp UP       &kp O       &kp P         &kp JP_YEN
-                &kp LALT   &kp A    &kp S    &kp D   &kp F    &kp G     &kp H     &kp LEFT  &kp DOWN     &kp RIGHT   &kp JP_SEMI   &kp JP_COLON
-                &kp LSHIFT &kp Z    &kp X    &kp C   &kp V    &kp B     &kp N     &kp M     &kp JP_COMMA &kp JP_DOT  &kp JP_SLASH  &kp RSHIFT
-                &kp LCTRL  &kp LWIN &kp LALT &kp TAB &kp BSPC &kp SPACE &kp ENTER &kp MINUS &kp ESC      &kp JP_LBKT &kp JP_RBKT   &kp JP_AT
+                &kp TAB    &kp Q    &kp W    &kp E   &kp R    &kp T     &mkp LCLK    &kp HOME  &kp UP    &kp END     &kp K_APP     &kp JP_YEN
+                &kp LALT   &kp A    &kp S    &kp D   &kp F    &kp G     &mkp MB5     &kp LEFT  &kp DOWN  &kp RIGHT   &kp JP_SEMI   &kp JP_COLON
+                &kp LSHIFT &kp Z    &kp X    &kp C   &kp V    &kp B     &mkp MB4     &my_sp    &my_dq    &my_kakko   &my_sq        &kp RSHIFT
+                &kp LCTRL  &kp LWIN &kp LALT &kp TAB &kp BSPC &kp SPACE &kp ENTER    &kp MINUS &kp ESC   &kp JP_LBKT &kp JP_RBKT   &kp JP_AT
                                         &kp UP                                        &kp UP
                               &kp LEFT  &kp ESC &kp RIGHT    &bootloader     &kp LEFT &kp ESC &kp RIGHT
                                         &kp DOWN                                      &kp DOWN
@@ -167,10 +167,10 @@
         };
         NUM {
             bindings = <
-                &kp TAB    &kp Q    &kp W    &kp E   &kp R    &kp T     &kp Y     &kp N7    &kp N8       &kp N9       &kp P         &kp JP_YEN
-                &kp LALT   &kp A    &kp S    &kp D   &kp F    &kp G     &kp H     &kp N4    &kp N5       &kp N6       &kp JP_SEMI   &kp JP_COLON
-                &kp LSHIFT &kp Z    &kp X    &kp C   &kp V    &kp B     &kp N     &kp N1    &kp N2       &kp N3       &kp JP_SLASH  &kp RSHIFT
-                &kp LCTRL  &kp LWIN &kp LALT &kp TAB &kp BSPC &kp SPACE &kp ENTER &kp MINUS &kp N0       &kp JP_LBKT  &kp JP_RBKT   &kp JP_AT
+                &kp TAB    &kp Q    &kp W    &kp E   &kp R    &kp T     &kp ASTRK     &kp N7    &kp N8   &kp N9       &kp MINUS   &kp JP_YEN
+                &kp LALT   &kp A    &kp S    &kp D   &kp F    &kp G     &kp KP_SLASH  &kp N4    &kp N5   &kp N6       &kp PLUS    &kp JP_COLON
+                &kp LSHIFT &kp Z    &kp X    &kp C   &kp V    &kp B     &kp SEMI      &kp N1    &kp N2   &kp N3       &kp CARET   &kp RSHIFT
+                &kp LCTRL  &kp LWIN &kp LALT &kp TAB &kp BSPC &kp SPACE &kp ENTER     &kp MINUS &kp N0   &kp KP_DOT   &kp COMMA   &kp JP_AT
                                         &kp UP                                        &kp UP
                               &kp LEFT  &kp ESC &kp RIGHT    &bootloader     &kp LEFT &kp ESC &kp RIGHT
                                         &kp DOWN                                      &kp DOWN
