@@ -1,6 +1,3 @@
 # WoooL
-
-## 構成
-* Charlieplex
-* Rotary Encoder
-* zmk-rgbled-widget
+![](https://github.com/ataruno/zmk-WoooL/blob/main/README_image/WoooL_WH_front.jpg)
+![](https://github.com/ataruno/zmk-WoooL/blob/main/README_image/WoooL_WH_back.jpg)
