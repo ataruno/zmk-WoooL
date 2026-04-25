@@ -146,9 +146,9 @@
                 &kp LALT   &kp A    &kp S    &kp D   &kp F    &kp G     &kp H     &kp J     &kp K        &kp L       &kp JP_SEMI   &kp JP_COLON
                 &kp LSHIFT &kp Z    &kp X    &kp C   &kp V    &kp B     &kp N     &kp M     &kp JP_COMMA &kp JP_DOT  &kp JP_SLASH  &kp RSHIFT
                 &kp LCTRL  &kp LWIN &lt_to_layer_0 4 ESC  &lt_to_layer_0 1 JP_HENK &kp BSPC &kp SPACE &kp ENTER &kp MINUS  &lt_to_layer_0 2 JP_MHEN  &lt_to_layer_0 3 JP_LBKT &kp JP_RBKT   &kp JP_AT
-                                         &mmv 0 10                                      &kp UP
-                            &mmv -10 0   &kp ESC  &mmv 10 0    &mo 4          &mkp LCLK &kp ESC   &mkp RCLK
-                                         &mmv 0 -10                                     &mkp MCLK
+                                         &mmv MOVE_UP                                      &kp UP
+                        &mmv MOVE_LEFT   &kp ESC  &mmv MOVE_RIGHT    &mo 4       &mkp LCLK &kp ESC   &mkp RCLK
+                                         &mmv MOVE_DOWN                                    &mkp MCLK
             >;
             sensor-bindings = <&mouse_scroll SCRL_DOWN SCRL_UP>;
         };
@@ -158,9 +158,9 @@
                 &kp LALT   &kp A    &kp S    &kp D   &kp F    &kp G     &mkp MB5     &kp LEFT  &kp DOWN  &kp RIGHT   &kp JP_SEMI   &kp JP_COLON
                 &kp LSHIFT &kp Z    &kp X    &kp C   &kp V    &kp B     &mkp MB4     &my_sp    &my_dq    &my_kakko   &my_sq        &kp RSHIFT
                 &kp LCTRL  &kp LWIN &kp LALT &kp TAB &kp DEL  &kp SPACE &kp ENTER    &kp MINUS &kp ESC   &kp JP_LBKT &kp JP_RBKT   &kp JP_AT
-                                         &mmv 0 10                                      &kp UP
-                            &mmv -10 0   &kp ESC  &mmv 10 0    &bootloader    &mkp LCLK &kp ESC   &mkp RCLK
-                                         &mmv 0 -10                                     &mkp MCLK
+                                         &mmv MOVE_UP                                            &kp UP
+                        &mmv MOVE_LEFT   &kp ESC  &mmv MOVE_RIGHT    &bootloader       &mkp LCLK &kp ESC   &mkp RCLK
+                                         &mmv MOVE_DOWN                                          &mkp MCLK
             >;
             sensor-bindings = <&inc_dec_kp C_VOL_UP C_VOL_DN>;
         };
@@ -170,9 +170,9 @@
                 &kp LALT   &kp A    &kp S    &kp D   &kp F    &kp G     &kp KP_SLASH  &kp N4    &kp N5   &kp N6       &kp PLUS    &kp JP_COLON
                 &kp LSHIFT &kp Z    &kp X    &kp C   &kp V    &kp B     &kp SEMI      &kp N1    &kp N2   &kp N3       &kp CARET   &kp RSHIFT
                 &kp LCTRL  &kp LWIN &kp LALT &kp TAB &kp DEL  &kp SPACE &kp ENTER     &kp MINUS &kp N0   &kp KP_DOT   &kp COMMA   &kp JP_AT
-                                         &mmv 0 10                                      &kp UP
-                            &mmv -10 0   &kp ESC  &mmv 10 0    &bootloader    &mkp LCLK &kp ESC   &mkp RCLK
-                                         &mmv 0 -10                                     &mkp MCLK
+                                         &mmv MOVE_UP                                            &kp UP
+                        &mmv MOVE_LEFT   &kp ESC  &mmv MOVE_RIGHT    &bootloader       &mkp LCLK &kp ESC   &mkp RCLK
+                                         &mmv MOVE_DOWN                                          &mkp MCLK
             >;
             sensor-bindings = <&inc_dec_kp C_VOL_UP C_VOL_DN>;
         };
@@ -182,9 +182,9 @@
                 &kp LALT   &kp LC(F15)  &kp LC(F16)  &kp LC(F17)  &kp LC(F18)   &kp LC(F19)   &kp LC(F20) &kp LC(F21)    &kp LC(F22)    &kp LC(F23)  &kp LC(F24)   &kp JP_COLON
                 &kp LSHIFT &kp LS(F15)  &kp LS(F16)  &kp LS(F17)  &kp LS(F18)   &kp LS(F19)   &kp LS(F20) &kp LS(F21)    &kp LS(F22)    &kp LS(F23)  &kp LS(F24)   &kp RSHIFT
                 &kp LCTRL  &kp LWIN     &kp LALT     &kp TAB      &kp DEL       &kp SPACE     &kp ENTER   &kp MINUS      &kp ESC        &kp JP_LBKT  &kp JP_RBKT   &kp JP_AT
-                                         &mmv 0 10                                      &kp UP
-                            &mmv -10 0   &kp ESC  &mmv 10 0    &bootloader    &mkp LCLK &kp ESC   &mkp RCLK
-                                         &mmv 0 -10                                     &mkp MCLK
+                                         &mmv MOVE_UP                                            &kp UP
+                        &mmv MOVE_LEFT   &kp ESC  &mmv MOVE_RIGHT    &bootloader       &mkp LCLK &kp ESC   &mkp RCLK
+                                         &mmv MOVE_DOWN                                          &mkp MCLK
             >;
             sensor-bindings = <&inc_dec_kp LC(LS(TAB)) LC(TAB)>;
         };
@@ -194,9 +194,9 @@
                 &kp LALT   &kp LA(N1)   &kp LA(N2)  &kp LA(N3)  &kp LA(N4)  &kp LA(N5)  &kp LC(N6)  &kp LC(N7)  &kp LC(N8)  &kp LC(N9)  &kp LC(N0)  &kp JP_COLON
                 &kp LSHIFT &kp F1       &kp F2      &kp F3      &kp F4      &kp F5      &kp F6      &kp F7      &kp F8      &kp F9      &kp F10     &kp RSHIFT
                 &kp LCTRL  &kp LWIN &kp LALT &kp TAB &kp DEL  &kp SPACE &kp ENTER &kp MINUS &kp ESC      &kp JP_LBKT &kp JP_RBKT   &kp JP_AT
-                                         &mmv 0 10                                               &bt BT_SEL 0
-                            &mmv -10 0   &kp &bt BT_CLR  &mmv 10 0  &bootloader    &bt BT_SEL 2  &kp ESC   &bt BT_SEL 1
-                                         &mmv 0 -10                                              &bt BT_SEL 2
+                                         &mmv MOVE_UP                                               &bt BT_SEL 0
+                            &mmv MOVE_LEFT   &kp &bt BT_CLR  &mmv MOVE_RIGHT  &bootloader    &bt BT_SEL 3  &kp ESC   &bt BT_SEL 1
+                                         &mmv MOVE_DOWN                                              &bt BT_SEL 2
             >;
             sensor-bindings = <&inc_dec_kp LC(LS(TAB)) LC(TAB)>;
         };
