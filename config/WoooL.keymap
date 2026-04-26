@@ -158,7 +158,7 @@
                 &kp LALT   &kp A    &kp S    &kp D   &kp F    &kp G     &mkp MB5     &kp LEFT  &kp DOWN  &kp RIGHT   &kp JP_SEMI   &kp JP_COLON
                 &kp LSHIFT &kp Z    &kp X    &kp C   &kp V    &kp B     &mkp MB4     &my_sp    &my_dq    &my_kakko   &my_sq        &kp RSHIFT
                 &kp LCTRL  &kp LWIN &kp LALT &kp TAB &kp DEL  &kp SPACE &kp ENTER    &kp MINUS &kp ESC   &kp JP_LBKT &kp JP_RBKT   &kp JP_AT
-                                         &mmv MOVE_UP                                            &kp UP
+                                         &mmv MOVE_UP                                            &kp C_MUTE
                         &mmv MOVE_LEFT   &kp ESC  &mmv MOVE_RIGHT    &kp C_MUTE        &mkp LCLK &kp ESC   &mkp RCLK
                                          &mmv MOVE_DOWN                                          &mkp MCLK
             >;
@@ -170,7 +170,7 @@
                 &kp LALT   &kp A    &kp S    &kp D   &kp F    &kp G     &kp KP_SLASH  &kp N4    &kp N5   &kp N6       &kp PLUS    &kp JP_COLON
                 &kp LSHIFT &kp Z    &kp X    &kp C   &kp V    &kp B     &kp SEMI      &kp N1    &kp N2   &kp N3       &kp CARET   &kp RSHIFT
                 &kp LCTRL  &kp LWIN &kp LALT &kp TAB &kp DEL  &kp SPACE &kp ENTER     &kp MINUS &kp N0   &kp KP_DOT   &kp COMMA   &kp JP_AT
-                                         &mmv MOVE_UP                                            &kp UP
+                                         &mmv MOVE_UP                                            &kp C_MUTE
                         &mmv MOVE_LEFT   &kp ESC  &mmv MOVE_RIGHT    &kp C_MUTE        &mkp LCLK &kp ESC   &mkp RCLK
                                          &mmv MOVE_DOWN                                          &mkp MCLK
             >;
@@ -182,7 +182,7 @@
                 &kp LALT   &kp LC(F15)  &kp LC(F16)  &kp LC(F17)  &kp LC(F18)   &kp LC(F19)   &kp LC(F20) &kp LC(F21)    &kp LC(F22)    &kp LC(F23)  &kp LC(F24)   &kp JP_COLON
                 &kp LSHIFT &kp LS(F15)  &kp LS(F16)  &kp LS(F17)  &kp LS(F18)   &kp LS(F19)   &kp LS(F20) &kp LS(F21)    &kp LS(F22)    &kp LS(F23)  &kp LS(F24)   &kp RSHIFT
                 &kp LCTRL  &kp LWIN     &kp LALT     &kp TAB      &kp DEL       &kp SPACE     &kp ENTER   &kp MINUS      &kp ESC        &kp JP_LBKT  &kp JP_RBKT   &kp JP_AT
-                                         &mmv MOVE_UP                                            &kp UP
+                                         &mmv MOVE_UP                                            &kp C_MUTE
                         &mmv MOVE_LEFT   &kp ESC  &mmv MOVE_RIGHT    &kp C_MUTE        &mkp LCLK &kp ESC   &mkp RCLK
                                          &mmv MOVE_DOWN                                          &mkp MCLK
             >;
