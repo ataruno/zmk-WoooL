@@ -145,7 +145,7 @@
                 &kp TAB    &kp Q    &kp W    &kp E   &kp R    &kp T     &kp Y     &kp U     &kp I        &kp O       &kp P         &kp JP_YEN
                 &kp LALT   &kp A    &kp S    &kp D   &kp F    &kp G     &kp H     &kp J     &kp K        &kp L       &kp JP_SEMI   &kp JP_COLON
                 &kp LSHIFT &kp Z    &kp X    &kp C   &kp V    &kp B     &kp N     &kp M     &kp JP_COMMA &kp JP_DOT  &kp JP_SLASH  &kp RSHIFT
-                &kp LCTRL  &kp LWIN &lt_to_layer_0 4 ESC  &lt_to_layer_0 1 JP_HENK &kp BSPC &kp SPACE &kp ENTER &kp MINUS  &lt_to_layer_0 2 JP_MHEN  &lt_to_layer_0 3 JP_LBKT &kp JP_RBKT   &kp JP_AT
+                &kp LCTRL  &kp LWIN &lt_to_layer_0 3 ESC  &lt_to_layer_0 2 JP_HENK &kp BSPC &kp SPACE &kp ENTER &kp MINUS  &lt_to_layer_0 1 JP_MHEN  &lt_to_layer_0 4 JP_LBKT &kp JP_RBKT   &kp JP_AT
                                          &mmv MOVE_UP                                      &kp UP
                         &mmv MOVE_LEFT   &kp ESC  &mmv MOVE_RIGHT    &mo 4       &mkp LCLK &kp ESC   &mkp RCLK
                                          &mmv MOVE_DOWN                                    &mkp MCLK
