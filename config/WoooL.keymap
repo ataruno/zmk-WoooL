@@ -145,7 +145,7 @@
                 &kp TAB    &kp Q    &kp W    &kp E   &kp R    &kp T     &kp Y     &kp U     &kp I        &kp O       &kp P         &kp JP_YEN
                 &kp LALT   &kp A    &kp S    &kp D   &kp F    &kp G     &kp H     &kp J     &kp K        &kp L       &kp JP_SEMI   &kp JP_COLON
                 &kp LSHIFT &kp Z    &kp X    &kp C   &kp V    &kp B     &kp N     &kp M     &kp JP_COMMA &kp JP_DOT  &kp JP_SLASH  &kp RSHIFT
-                &kp LCTRL  &kp LWIN &lt_to_layer_0 4 ESC  &lt_to_layer_0 2 JP_HENK &kp BSPC &kp SPACE &kp ENTER &kp MINUS  &lt_to_layer_0 1 JP_MHEN  &lt_to_layer_0 3 JP_LBKT &kp JP_RBKT   &kp JP_AT
+                &kp LCTRL  &kp LWIN &kp DEL  &lt_to_layer_0 4 TAB &lt_to_layer_0 4 BSPC &lt_to_layer_0 2 SPACE &lt_to_layer_0 1 ENTER &lt_to_layer_0 3 MINUS &lt_to_layer_0 3 ESC &kp JP_LBKT &kp JP_RBKT   &kp JP_AT
                                          &mmv MOVE_UP                                      &kp UP
                         &mmv MOVE_LEFT   &kp ESC  &mmv MOVE_RIGHT    &mo 4       &mkp LCLK &kp ESC   &mkp RCLK
                                          &mmv MOVE_DOWN                                    &mkp MCLK
@@ -154,24 +154,24 @@
         };
         ARROW {
             bindings = <
-                &kp TAB    &kp Q    &kp W    &kp E   &kp R    &kp T     &mkp LCLK    &kp HOME  &kp UP    &kp END     &kp K_APP     &kp JP_YEN
-                &kp LALT   &kp A    &kp S    &kp D   &kp F    &kp G     &mkp MB5     &kp LEFT  &kp DOWN  &kp RIGHT   &kp JP_SEMI   &kp JP_COLON
-                &kp LSHIFT &kp Z    &kp X    &kp C   &kp V    &kp B     &mkp MB4     &my_sp    &my_dq    &my_kakko   &my_sq        &kp RSHIFT
-                &kp LCTRL  &kp LWIN &kp LALT &kp TAB &kp DEL  &kp SPACE &kp ENTER    &kp MINUS &kp ESC   &kp JP_LBKT &kp JP_RBKT   &kp JP_AT
+                &kp TAB    &mkp MCLK &mkp LCLK      &mmv MOVE_UP   &mkp RCLK       &mkp MB5           &mkp LCLK    &kp HOME     &kp UP    &kp END     &kp K_APP     &kp JP_YEN
+                &kp LALT   &kp A     &mmv MOVE_LEFT &mmv MOVE_DOWN &mmv MOVE_RIGHT &mkp MB4           &mkp MB5     &kp LEFT     &kp DOWN  &kp RIGHT   &kp JP_SEMI   &kp JP_COLON
+                &kp LSHIFT &kp Z     &kp X          &kp C          &kp V           &kp B              &mkp MB4     &my_sp       &my_dq    &my_kakko   &my_sq        &kp RSHIFT
+                &kp LCTRL  &kp LWIN  &kp DEL        &kp TAB        &kp BSPC        &kp JP_HENK        &none        &kp JP_BSLH  &kp ESC   &kp JP_LBKT &kp JP_RBKT   &kp JP_AT
                                          &mmv MOVE_UP                                            &kp C_MUTE
-                        &mmv MOVE_LEFT   &kp ESC  &mmv MOVE_RIGHT    &kp C_MUTE        &mkp LCLK &kp ESC   &mkp RCLK
+                        &mmv MOVE_LEFT   &kp C_MUTE  &mmv MOVE_RIGHT    &kp C_MUTE        &mkp LCLK &kp ESC   &mkp RCLK
                                          &mmv MOVE_DOWN                                          &mkp MCLK
             >;
             sensor-bindings = <&inc_dec_kp C_VOL_DN C_VOL_UP>;
         };
         NUM {
             bindings = <
-                &kp TAB    &kp Q    &kp W    &kp E   &kp R    &kp T     &kp ASTRK     &kp N7    &kp N8   &kp N9       &kp MINUS   &kp JP_YEN
-                &kp LALT   &kp A    &kp S    &kp D   &kp F    &kp G     &kp KP_SLASH  &kp N4    &kp N5   &kp N6       &kp PLUS    &kp JP_COLON
-                &kp LSHIFT &kp Z    &kp X    &kp C   &kp V    &kp B     &kp SEMI      &kp N1    &kp N2   &kp N3       &kp CARET   &kp RSHIFT
-                &kp LCTRL  &kp LWIN &kp LALT &kp TAB &kp DEL  &kp SPACE &kp ENTER     &kp MINUS &kp N0   &kp KP_DOT   &kp COMMA   &kp JP_AT
+                &kp TAB    &kp Q    &kp W    &kp E   &kp R    &kp T                      &kp ASTRK     &kp N7      &kp N8   &kp N9       &kp MINUS   &kp JP_YEN
+                &kp LALT   &kp A    &kp S    &kp D   &kp F    &kp G                      &kp KP_SLASH  &kp N4      &kp N5   &kp N6       &kp PLUS    &kp JP_COLON
+                &kp LSHIFT &kp Z    &kp X    &kp C   &kp V    &kp B                      &kp SEMI      &kp N1      &kp N2   &kp N3       &kp CARET   &kp RSHIFT
+                &kp LCTRL  &kp LWIN &kp DEL  &kp TAB &kp DEL  &none                      &kp JP_MHEN   &kp JP_BSLH &kp N0   &kp KP_DOT   &kp COMMA   &kp JP_AT
                                          &mmv MOVE_UP                                            &kp C_MUTE
-                        &mmv MOVE_LEFT   &kp ESC  &mmv MOVE_RIGHT    &kp C_MUTE        &mkp LCLK &kp ESC   &mkp RCLK
+                        &mmv MOVE_LEFT   &kp C_MUTE  &mmv MOVE_RIGHT    &kp C_MUTE        &mkp LCLK &kp ESC    &mkp RCLK
                                          &mmv MOVE_DOWN                                          &mkp MCLK
             >;
             sensor-bindings = <&inc_dec_kp C_VOL_DN C_VOL_UP>;
@@ -181,9 +181,9 @@
                 &kp TAB    &kp F15      &kp F16      &kp F17      &kp F18       &kp F19       &kp F20     &kp F21        &kp F22        &kp F23      &kp F24       &kp JP_YEN
                 &kp LALT   &kp LC(F15)  &kp LC(F16)  &kp LC(F17)  &kp LC(F18)   &kp LC(F19)   &kp LC(F20) &kp LC(F21)    &kp LC(F22)    &kp LC(F23)  &kp LC(F24)   &kp JP_COLON
                 &kp LSHIFT &kp LS(F15)  &kp LS(F16)  &kp LS(F17)  &kp LS(F18)   &kp LS(F19)   &kp LS(F20) &kp LS(F21)    &kp LS(F22)    &kp LS(F23)  &kp LS(F24)   &kp RSHIFT
-                &kp LCTRL  &kp LWIN     &kp LALT     &kp TAB      &kp DEL       &kp SPACE     &kp ENTER   &kp MINUS      &kp ESC        &kp JP_LBKT  &kp JP_RBKT   &kp JP_AT
+                &kp LCTRL  &kp LWIN     &kp DEL      &kp TAB      &kp BSPC      &kp SPACE     &kp ENTER   &kp JP_BSLH    &kp ESC        &kp JP_LBKT  &kp JP_RBKT   &kp JP_AT
                                          &mmv MOVE_UP                                            &kp C_MUTE
-                        &mmv MOVE_LEFT   &kp ESC  &mmv MOVE_RIGHT    &kp C_MUTE        &mkp LCLK &kp ESC   &mkp RCLK
+                        &mmv MOVE_LEFT   &kp C_MUTE  &mmv MOVE_RIGHT    &kp C_MUTE        &mkp LCLK &kp ESC   &mkp RCLK
                                          &mmv MOVE_DOWN                                          &mkp MCLK
             >;
             sensor-bindings = <&inc_dec_kp LC(TAB) LC(LS(TAB))>;
@@ -193,7 +193,7 @@
                 &kp TAB    &kp LS(N1)   &kp LS(N2)  &kp LS(N3)  &kp LS(N4)  &kp LS(N5)  &kp LS(N6)  &kp LS(N7)  &kp LS(N8)  &kp LS(N9)  &kp LS(N0)  &kp JP_YEN
                 &kp LALT   &kp LA(N1)   &kp LA(N2)  &kp LA(N3)  &kp LA(N4)  &kp LA(N5)  &kp LC(N6)  &kp LC(N7)  &kp LC(N8)  &kp LC(N9)  &kp LC(N0)  &kp JP_COLON
                 &kp LSHIFT &kp F1       &kp F2      &kp F3      &kp F4      &kp F5      &kp F6      &kp F7      &kp F8      &kp F9      &kp F10     &kp RSHIFT
-                &kp LCTRL  &kp LWIN     &kp LALT    &kp TAB     &kp DEL     &kp SPACE   &kp ENTER   &kp MINUS   &kp ESC     &kp JP_LBKT &kp JP_RBKT &kp JP_AT
+                &kp LCTRL  &kp LWIN     &kp LALT    &kp TAB     &kp BSPC    &kp SPACE   &kp ENTER   &kp JP_BSLH &kp ESC     &kp JP_LBKT &kp JP_RBKT &kp JP_AT
                                          &mmv MOVE_UP                                               &bt BT_SEL 0
                          &mmv MOVE_LEFT  &bt BT_CLR  &mmv MOVE_RIGHT  &none          &bt BT_SEL 3   &kp ESC   &bt BT_SEL 1
                                          &mmv MOVE_DOWN                                             &bt BT_SEL 2
