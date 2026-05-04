@@ -154,8 +154,8 @@
         };
         ARROW {
             bindings = <
-                &kp TAB    &mkp MCLK &mkp LCLK      &mmv MOVE_UP   &mkp RCLK       &mkp SCRL_UP       &mkp LCLK    &kp HOME     &kp UP    &kp END     &kp K_APP     &kp JP_YEN
-                &kp LALT   &kp A     &mmv MOVE_LEFT &mmv MOVE_DOWN &mmv MOVE_RIGHT &mkp SCRL_DOWN     &mkp MB5     &kp LEFT     &kp DOWN  &kp RIGHT   &kp JP_SEMI   &kp JP_COLON
+                &kp TAB    &mkp MCLK &mkp LCLK      &mmv MOVE_UP   &mkp RCLK       &msc SCRL_UP       &mkp LCLK    &kp HOME     &kp UP    &kp END     &kp K_APP     &kp JP_YEN
+                &kp LALT   &kp A     &mmv MOVE_LEFT &mmv MOVE_DOWN &mmv MOVE_RIGHT &msc SCRL_DOWN     &mkp MB5     &kp LEFT     &kp DOWN  &kp RIGHT   &kp JP_SEMI   &kp JP_COLON
                 &kp LSHIFT &kp Z     &kp X          &kp C          &kp V           &kp B              &mkp MB4     &my_sp       &my_dq    &my_kakko   &my_sq        &kp RSHIFT
                 &kp LCTRL  &kp LWIN  &kp DEL        &mkp MCLK      &kp BSPC        &kp JP_HENK        &none        &kp JP_BSLH  &kp ESC   &kp JP_LBKT &kp JP_RBKT   &kp JP_AT
                                          &mmv MOVE_UP                                            &kp C_MUTE
