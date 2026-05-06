@@ -5,8 +5,8 @@
 #include <dt-bindings/zmk/pointing.h>
 #include <behaviors/rgbled_widget.dtsi>
 
-#define ZMK_POINTING_DEFAULT_MOVE_VAL 1200
-#define ZMK_POINTING_DEFAULT_SCRL_VAL 50   //スクロール量
+#define ZMK_POINTING_DEFAULT_MOVE_VAL 1000
+#define ZMK_POINTING_DEFAULT_SCRL_VAL 100
 
 // Leyer
 #define ARROW 1
@@ -86,7 +86,6 @@
                 , <&macro_tap &kp LS(N7)>
                 ;
         };
-
         my_kakko: my_kakko {
             compatible = "zmk,behavior-macro";
             #binding-cells = <0>;
